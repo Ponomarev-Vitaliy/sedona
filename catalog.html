@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="#" alt="Логотип Седоны">
+      <ul>
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="#">О Седоне</a>
+        </li>
+        <li>
+          <a href="#">Гостиницы</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><span>Поиск</span></a>
+        </li>
+        <li>
+          <a href="#">Избранное</a>
+        </li>
+        <li>
+          <a href="#">Хочу сюда!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="catalog-header">
+      <h1>Гостиницы Седоны</h1>
+      <ol class="breadcrumbs">
+        <li class="breadcrumbs-item">Главная</li>
+        <li class="breadcrumbs-item">Гостиницы</li>
+      </ol>
+    </header>
+    <section class="hotel-filter">
+      <h2 class="visually-hidden">Фильтр гостиниц</h2>
+      <form action="https://echo.htmlacademy.ru/">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+              <label>
+                <span>Бассейн</span>
+                <input type="checkbox" name="swimming-pool"checked>
+              </label>
+            </li>
+            <li>
+              <label>
+                <span>Парковка</span>
+                <input type="checkbox" name="car-park"checked>
+              </label>
+            </li>
+            <li>
+              <label>
+                <span>WI-FI</span>
+                <input type="checkbox" name="wi-fi">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <label>
+                <span>Гостиница</span>
+                <input type="radio" name="hotel-group" value="hotel">
+              </label>
+            </li>
+            <li>
+              <label>
+                <span>Мотель</span>
+                <input type="radio" name="hotel-group" value="motel">
+              </label>
+            </li>
+            <li>
+              <label>
+                <span>Апартаменты</span>
+                <input type="radio" name="hotel-group" value="apartments">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Стоимость, ₽:</legend>
+          <button type="button">
+            <span class="visually-hidden">Изменить минимальную цену.</span>
+          </button>
+          <button type="button">
+            <span class="visually-hidden">Изменить максимальную цену.</span>
+          </button>
+
+          <label>
+            от <input type="number" name="min-price"> ₽
+          </label>
+
+          <label>
+            до <input type="number" name="max-price"> ₽
+          </label>
+        </fieldset>
+        <button class="button" type="submit">Применить</button>
+        <button class="clear" type="submit">Сбросить</button>
+      </form>
+    </section>
+    <section class="hotel-list-sort">
+      <h2>Найдено гостиниц: 38</h2>
+      <form action="https://echo.htmlacademy.ru/" class="sorting-type">
+        <select class="select-control" id="sorting" name="sorting">
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="popular">Сначала популярное</option>
+          <option value="expensive">Сначала дорогое</option>
+        </select>
+        <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+      </form>
+      <a href="#"><span>Показать карточки</span></a>
+      <a href="#"><span>Показать во весь экран</span></a>
+      <a href="#"><span>Показать списком</span></a>
+      <ul class="product-list">
+
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="#"><span>Твиттер</span></a></li>
+      <li><a href="#"><span>Фэйсбук</span></a></li>
+      <li><a href="#"><span>Youtube</span></a></li>
+    </ul>
+    <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <a href="#">
+      <img src="#" alt="Логотип">
+    </a>
+  </footer>
+</body>
+</html>
