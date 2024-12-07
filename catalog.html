@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header>
@@ -17,7 +18,7 @@
           <a href="#">О Седоне</a>
         </li>
         <li>
-          <a href="#">Гостиницы</a>
+          <a href="catalog.html">Гостиницы</a>
         </li>
       </ul>
       <ul>
@@ -125,9 +126,140 @@
       <a href="#"><span>Показать во весь экран</span></a>
       <a href="#"><span>Показать списком</span></a>
       <ul class="product-list">
-
+        <li>
+          <a href="#">
+            <img src="#" alt="Гостиница 1">
+          </a>
+          <h3>Amara Resort & Spa</h3>
+          <span>
+            <p>Гостиница</p><b>От 4000 ₽</b>
+          </span>
+          <span>
+            <a href="#">подробнее</a>
+          </span>
+          <span>
+            <a href="#">В избранное</a>
+          </span>
+          <div class="rating">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+          <p>Рейтинг: 8,5</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="Гостиница 2">
+          </a>
+          <h3>Desert Quail Inn</h3>
+          <span>
+            <p>Гостиница</p><b>От 3000 ₽</b>
+          </span>
+          <span>
+            <a href="#">подробнее</a>
+          </span>
+          <span>
+            <a href="#">В избранное</a>
+          </span>
+          <div class="rating">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Рейтинг: 8,9</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="Гостиница 3">
+          </a>
+          <h3>Villas at Poco Diablo</h3>
+          <span>
+            <p>Гостиница</p><b>От 2000 ₽</b>
+          </span>
+          <span>
+            <a href="#">подробнее</a>
+          </span>
+          <span>
+            <a href="#">В избранное</a>
+          </span>
+          <div class="rating">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Рейтинг: 9.2</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="Гостиница 4">
+          </a>
+          <h3>GreenTree Inn</h3>
+          <span>
+            <p>Гостиница</p><b>От 3000 ₽</b>
+          </span>
+          <span>
+            <a href="#">подробнее</a>
+          </span>
+          <span>
+            <a href="#">В избранное</a>
+          </span>
+          <div class="rating">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Рейтинг: 9.2</p>
+        </li>
       </ul>
+      <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+      <ul class="pagination">
+        <li class="pagination-item">
+          <a class="pagination-link">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">4</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#"><span class="visually-hidden">Следующая страница</span></a>
+        </li>
+      </ul>
+      <form action="https://echo.htmlacademy.ru/" class="sorting-type">
+        <label class="visually-hidden" for="sorting">Гостиниц на странице:</label>
+        <select class="select-control" id="sorting" name="sorting">
+          <option value="one-hotel-on-page">1</option>
+          <option value="two-hotel-on-page">2</option>
+          <option value="three-hotel-on-page">3</option>
+        </select>
+        <button class="visually-hidden" type="submit">Показать Гостиницы</button>
+      </form>
+      </form>
     </section>
+    <aside>
+      <div>
+        <h3>Подпишитесь на рассылку</h3>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru/">
+          <input type="email"placeholder="email@example.com"name="news-email" id="news-email" required>
+          <button class="button news-button" type="submit">
+            <span>Подписаться</span>
+          </button>
+        </form>
+      </div>
+    </aside>
   </main>
   <footer>
     <ul>
