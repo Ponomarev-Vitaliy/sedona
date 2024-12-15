@@ -217,16 +217,16 @@ body{
 }
 /*5*/
 .news-background{
+  background-color: rgb(131, 179, 211);
   background-image: url(../img/main/news-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: rgb(131, 179, 211);
   color:rgb(255, 255, 255);
 }
 .news .section-description{
   color:rgb(255, 255, 255);
 }
-.news .input-field{
+.news-input-field{
   display: flex;
   justify-content: center;
 }
@@ -274,3 +274,112 @@ body{
   text-transform: uppercase;
   text-decoration: none;
 }
+/*7*/
+.filter-background{
+  background: rgb(131, 179, 211);
+  background-image: url(../img/catalog/catalog-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 408px;
+
+}
+.hotel-filter{
+  color: rgb(255, 255, 255);
+}
+.main-title{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+
+}
+.breadcrumbs{
+  display: flex;
+  margin: 0;
+  padding: 0 ;
+  list-style-type: none;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.breadcrumbs-item.icon{
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-image: url(../img/catalog/home-icon-breadcrumbs.svg);
+  background-repeat: no-repeat;
+}
+.fieldset-row-grid{
+  display: flex;
+}
+.blue-button{
+  border-radius: 4px;
+  background: rgb(131, 179, 211);
+}
+
+.clear-button{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-decoration: none;
+}
+/*8*/
+/*Переиспользую заголовки в catalog*/
+/*Переиспользую кнопки в catalog*/
+.product-list{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-title{
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+
+}
+.product-price-wrap{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-product{
+  display: block;
+  width: 133px;
+  height: 37px;
+  border-radius: 4px;
+  background: rgb(117, 98, 87);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.favotite{
+  border-radius: 4px;
+  background: rgb(130, 179, 211);
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.rating .active{
+  display: inline-block;
+  background-image: url(../img/catalog/raiting-star.svg);
+  width: 18px;
+  height: 17px;
+}
+.rating-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
